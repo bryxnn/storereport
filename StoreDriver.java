@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package store;
 
 import java.io.File;
@@ -12,11 +7,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-/**
- * Application launches from this class
- *
- * @author Goteti Santosh Ravi Teja
- */
 public class StoreDriver {
 
     /**
@@ -63,8 +53,7 @@ public class StoreDriver {
              //    declare a variable salesRate of type double and scan the element, now create an object for salesAssociate named as "salesAssociate",
              //    initialize the sales associate by invoking the constructor of SalesAssociate class with above mentioned variables (question 6 & 7). 
              //    Then add the salesAssociate object to the arrayList of salesAssociateList
-                Manager manager = new Manager(CurrentStoreSales, currentSales, numberOfHoursWorked,
-                        hourlyRate, storeDetails, basePay, empName);
+                Manager manager = new Manager(CurrentStoreSales, currentSales, numberOfHoursWorked, hourlyRate, storeDetails, basePay, empName);
                 String str = sc.nextLine();
                 managerList.add(manager);
 
